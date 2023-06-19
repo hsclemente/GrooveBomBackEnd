@@ -1,8 +1,8 @@
 spring:
     datasource:
-        url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/hc-groovebom-test}
+        url: ${DATABASE_URL:jdbc:postgresql:containers-us-west-38.railway.app//:6437/railway}
         username: ${DATABASE_USERNAME:postgres}
-        password: ${DATABASE_PASSWORD:admin}
+        password: ${DATABASE_PASSWORD:iLaD0NvxxWFETVzE2Qbq}
         driver-class-name: org.postgresql.Driver
     jpa:
         generate-ddl: true
