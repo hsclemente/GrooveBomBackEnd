@@ -1,6 +1,6 @@
 spring:
     datasource:
-        url: ${DATABASE_URL:jdbc:postgresql:containers-us-west-13.railway.app:5486/railway}
+        url: ${DATABASE_URL:jdbc:postgresql://containers-us-west-13.railway.app:5486/railway}
         username: ${DATABASE_USERNAME:postgres}
         password: ${DATABASE_PASSWORD:cExFIgy6AvCeloDUXDIi}
         driver-class-name: org.postgresql.Driver
